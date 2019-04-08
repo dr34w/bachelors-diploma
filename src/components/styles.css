@@ -1,0 +1,101 @@
+body, html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-height: 100vh !important;
+    background-color: #30363D;
+  }
+
+ /*** HEADER ***/
+
+ header {
+     
+ }
+
+ .head {
+    text-transform: uppercase;
+    padding: 7px;  
+    float:left;
+    margin-left: 166px;
+    margin-top: 15px;
+    text-decoration: none;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: normal;
+text-align: right;
+
+color: #FFFFFF;
+
+  }
+
+ .separador {
+	margin-top: 50px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.separador:after {
+  content: '';
+  display: block;
+  width: 90%;
+  height: 30px;
+	margin: -30px auto 0;
+  border-radius: 120px / 10px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+}
+
+  /*** SECTION ***/
+
+  h1 {
+    /* color: #A770EF;  fallback for old browsers */
+    /* color: -webkit-linear-gradient(to left, #FDB99B, #CF8BF3, #A770EF);  Chrome 10-25, Safari 5.1-6 */
+    /*color: linear-gradient(to left, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* color: -webkit-linear-gradient(to left, #FDB99B, #CF8BF3, #A770EF); */
+    font-size: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background: -webkit-linear-gradient(360deg, #F27A54 25%, #A154F2 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* h1::after {
+      content: '';
+      color: linear-gradient(to left, #F27A54, #CF8BF3, #A154F2);
+  } */
+
+  /*** FOOTER ***/
+
+  footer {
+    flex: 0 0 auto;
+    position: fixed;
+    bottom: 0;
+    background-color: #3C444C;
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid lightgray; */
+  }
+  
+  .footer-content {
+    
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+  }  
+
+  /***SEARCH***/
+  
+  .inputStyle {
+    text-align: center;
+    width: 100%;
+    border-radius: 1em;
+    border: hidden;
+    height: 30px;
+    /* text-transform: uppercase; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
